@@ -70,5 +70,11 @@ POST /sync/api/v1/auth/login/
 - All API requests require a valid JWT access token in the `Authorization` header.
 - For background tasks, ensure Redis and Celery are running.
 
+
+
+HUBSPOT APIKEY
+Create a .env file and add this in env
+API_KEY=pat-na2-524081e4-b1da-431d-b8e8-19195d2680e9
+
 ---
 For any issues, contact the maintainer.
